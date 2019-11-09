@@ -45,17 +45,6 @@ The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritic
 
 ![](https://raw.githubusercontent.com/adelansari/Use-to-store-images/master/2019/11/10-01-47-22-1234.PNG?token=ANSFO6OLFJL5YHA6BVPIWZK5Y5IEO)
 
-$$
-k=\frac{1}{1-\rho}=\frac{1}{1-\left(-10\times\beta\right)}=0.92764 \\
-M=\frac{1}{1-k}=13.82 \\
-N=M\times S=13.82\times1.3\times{10}^7=1.797\times{10}^8\ n/s \\
-\frac{dP}{dt}=\frac{\rho-\beta}{\Lambda}P\left(t\right)+\frac{\beta}{\Lambda}P_0 \\
-\frac{dP}{dt}=0==>P_0=P\left(t\right)\times\frac{\beta-\rho}{\beta} \\
-\frac{P\left(t\right)}{P_0}=\frac{\beta}{\beta-\rho}==>\frac{XP_0}{P_0}=X=\frac{\beta}{\beta-\rho} \\
-where:\beta=0.0078\ and\ \rho=-10\times\beta \\
-X=\frac{\beta}{\beta+10\beta}=\frac{1}{11}
-$$
-
 <p align="center"> 
 <img src="Images/5.png"| width=600>
 </p>
