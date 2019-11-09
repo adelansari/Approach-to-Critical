@@ -43,8 +43,6 @@ In order to simulate the behavior of a subcritical system with a series of posit
 
 The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop). 
 
-
-
 ![](C:\Users\adela\AppData\Roaming\marktext\images\2019-11-10-01-42-07-image.png)
 
 $$
