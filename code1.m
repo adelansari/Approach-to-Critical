@@ -1,14 +1,7 @@
 %
-%     University of Sharjah
-%     Department of Nuclear Engineering
-%     24.536 Reactor Experiments and 407.403 Advanced Nuclear Lab, Spring 2016
-%     HW #4:  Subcritical Multiplication and ìApproach to Criticalî Pre-lab Exercises
-%     Problem #3
+%     Subcritical Multiplication and ‚ÄúApproach to Critical‚Äù 
 %     Prepared by:
-%                 U00038673	Adel Ali Ansari
-%                 U00034108	Ahmed Ali Hussain Aljassmi
-%                 U00037021	Abdulla AjailAlktebi
-%     Instructors: Professor John White & Dr. Victor Gillette 
+%     Adel Ali Ansari
 
 clear all,  close all,  nfig = 0;  
 
