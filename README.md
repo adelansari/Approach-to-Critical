@@ -11,19 +11,19 @@ Mr vs ρ ,  1/Mr vs. ρ ,   Mr vs k   and  1/Mr vs. k
 **Output**
 
 <p align="center"> 
-<img src="Images/1.tif">
+<img src="Images/1.png">
 </p>
 
 <p align="center"> 
-<img src="Images/2.tif">
+<img src="Images/2.png">
 </p>
 
 <p align="center"> 
-<img src="Images/3.tif">
+<img src="Images/3.png">
 </p>
 
 <p align="center"> 
-<img src="Images/4.tif">
+<img src="Images/4.png">
 </p>
 
 The curves are meaningful as they follow the theory and equations.
