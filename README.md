@@ -51,9 +51,8 @@ P(t)/P_0 =β/(β-ρ)==>(XP_0)/P_0 =X=β/(β-ρ)
 where:β=0.0078 and ρ=-10×β
 X=β/(β+10β)=1/11
 ```
-$$x=\sqrt{2}$$
 
- h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
 
 <p align="center"> 
 <img src="Images/5.png"| width=600>
