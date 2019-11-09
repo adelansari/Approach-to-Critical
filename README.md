@@ -37,8 +37,25 @@ The 1/Mr vs ρ or 1/Mr vs k graphs are more informative, since the x-intercept r
 # Script 2
 The you should use the pkeqns_nofdbk.m function to 
 
-In order to simulate the behavior of a subcritical system with a series of positive step changes in reactivity, I wrote ```pksim_test.m``` code which uses the ```pkeqns_nofdbk.m``` code (written by J. R. White).  At each step, the level of subcriticality should be reduced by a factor of two until one gets close to critical  --  within -0.5 dollars should be sufficient to show the desired behavior here. The simulation starts at steady state subcritical with ρo = -10 dollars and add sufficient positive reactivity at each step to reduce the total reactivity by a factor of two each time.  Using the kinetics data for the UMLRR, including the source strength, S, and other parameters as obtained from the ```kinetics_data.m``` function file.  I used the ```pksim_test.m``` file as a starting point, making sure that the initial conditions set properly and that I get the tt and rhot vectors to mimic the desired sequence of step reactivity changes. The first few reactivity steps in the process might look as follows: 
+In order to simulate the behavior of a subcritical system with a series of positive step changes in reactivity, I wrote ```pksim_test.m``` code which uses the ```pkeqns_nofdbk.m``` code (written by J. R. White).  At each step, the level of subcriticality should be reduced by a factor of two until one gets close to critical  --  within -0.5 dollars should be sufficient to show the desired behavior here. The simulation starts at steady state subcritical with ρo = -10 dollars and add sufficient positive reactivity at each step to reduce the total reactivity by a factor of two each time.  Using the kinetics data for the UMLRR, including the source strength, S, and other parameters as obtained from the ```kinetics_data.m``` function file.  I used the ```pksim_test.m``` file as a starting point, making sure that the initial conditions set properly and that I get the tt and rhot vectors to mimic the desired sequence of step reactivity changes. 
+
+The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop). 
+
 ```math
-      tt =   [0 5   5.01 35   35.01  95 ];   
-      rhot = [0 0    5    5    7.5  7.5 ]*Be;    
+k=1/(1-ρ)=1/(1-(-10×β) )=0.92764
+M=1/(1-k)=13.82
+N=M×S=13.82×1.3×10^7=1.797×10^8  n/s
+dP/dt=(ρ-β)/Λ P(t)+β/Λ P_0
+dP/dt=0==>P_0=P(t)×(β-ρ)/β
+P(t)/P_0 =β/(β-ρ)==>(XP_0)/P_0 =X=β/(β-ρ)
+where:β=0.0078 and ρ=-10×β
+X=β/(β+10β)=1/11
 ```
+
+<p align="center"> 
+<img src="Images/5.png"| width=600>
+</p>
+
+<p align="center"> 
+<img src="Images/6.png"| width=600>
+</p>
