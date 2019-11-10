@@ -43,14 +43,7 @@ In order to simulate the behavior of a subcritical system with a series of posit
 
 The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop). 
 
-<img src="/tex/fb9c3179b06b30ce19921fd9929f770c.svg?invert_in_darkmode&sanitize=true" align=middle width=229.04571195pt height=27.77565449999998pt/>
-<img src="/tex/f44c91c9321176e50b966cfd278f6491.svg?invert_in_darkmode&sanitize=true" align=middle width=127.05579974999998pt height=27.77565449999998pt/>
-<img src="/tex/476d38bc5471a362ec7db4619f162c48.svg?invert_in_darkmode&sanitize=true" align=middle width=364.6722304499999pt height=27.89048460000002pt/>
-<img src="/tex/3ec2b8586798166dcb7d64bed89b4aa1.svg?invert_in_darkmode&sanitize=true" align=middle width=154.39261695pt height=30.648287999999997pt/>
-<img src="/tex/e2c1a943835c5a883c6aabe191b761b3.svg?invert_in_darkmode&sanitize=true" align=middle width=217.9266045pt height=30.648287999999997pt/>
-<img src="/tex/cc29a89d80bec3d72a7c56a1041cb697.svg?invert_in_darkmode&sanitize=true" align=middle width=242.10258269999997pt height=33.20539859999999pt/>
-<img src="/tex/c3852ca7a1374b1d523f87e49a0b7b58.svg?invert_in_darkmode&sanitize=true" align=middle width=264.2750385pt height=22.831056599999986pt/>
-<img src="/tex/08d232428c88927b16c5ed8d3c358d03.svg?invert_in_darkmode&sanitize=true" align=middle width=117.05357235pt height=30.648287999999997pt/>
+<img src="/tex/78fd8d3d9c5c9eb82c051af01b4924ee.svg?invert_in_darkmode&sanitize=true" align=middle width=1727.2089912pt height=33.20539859999999pt/>
 
 
 <p align="center"> 
