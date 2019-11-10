@@ -43,14 +43,16 @@ In order to simulate the behavior of a subcritical system with a series of posit
 
 The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop). 
 
-$k=\frac{1}{1-\rho}=\frac{1}{1-\left(-10\times\beta\right)}=0.92764$
-$M=\frac{1}{1-k}=13.82$
-$N=M\times S=13.82\times1.3\times{10}^7=1.797\times{10}^8\ n/s$
-$\frac{dP}{dt}=\frac{\rho-\beta}{\Lambda}P\left(t\right)+\frac{\beta}{\Lambda}P_0$
-$\frac{dP}{dt}=0==>P_0=P\left(t\right)\times\frac{\beta-\rho}{\beta}$
-$\frac{P\left(t\right)}{P_0}=\frac{\beta}{\beta-\rho}==>\frac{XP_0}{P_0}=X=\frac{\beta}{\beta-\rho}$
-$where:\beta=0.0078\ and\ \rho=-10\times\beta$
-$X=\frac{\beta}{\beta+10\beta}=\frac{1}{11}$
+${
+k=\frac{1}{1-\rho}=\frac{1}{1-\left(-10\times\beta\right)}=0.92764
+M=\frac{1}{1-k}=13.82
+N=M\times S=13.82\times1.3\times{10}^7=1.797\times{10}^8\ n/s
+\frac{dP}{dt}=\frac{\rho-\beta}{\Lambda}P\left(t\right)+\frac{\beta}{\Lambda}P_0
+\frac{dP}{dt}=0==>P_0=P\left(t\right)\times\frac{\beta-\rho}{\beta}
+\frac{P\left(t\right)}{P_0}=\frac{\beta}{\beta-\rho}==>\frac{XP_0}{P_0}=X=\frac{\beta}{\beta-\rho}
+where:\beta=0.0078\ and\ \rho=-10\times\beta
+X=\frac{\beta}{\beta+10\beta}=\frac{1}{11}
+}$
 
 
 <p align="center"> 
