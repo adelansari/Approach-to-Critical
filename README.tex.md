@@ -54,7 +54,6 @@ where:\beta=0.0078\ and\ \rho=-10\times\beta \\
 X=\frac{\beta}{\beta+10\beta}=\frac{1}{11}
 \end{gather*}
 
-
 <p align="center"> 
 <img src="Images/5.png"| width=600>
 </p>
