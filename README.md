@@ -45,7 +45,6 @@ The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritic
 
 <p align="center"><img src="/tex/bc7255a8d2a6e02e72d10e0ec8aa9ec1.svg?invert_in_darkmode&sanitize=true" align=middle width=364.67223045pt height=303.08458455pt/></p>
 
-
 <p align="center"> 
 <img src="Images/5.png"| width=600>
 </p>
