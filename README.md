@@ -13,7 +13,7 @@ Mr vs ρ ,  1/Mr vs. ρ ,   Mr vs k   and  1/Mr vs. k
 **Output**
 
 <p align="center">
-<img src="Images/1.png" width=600>
+<img src="Images/1.png" width="600">
 </p>
 
 <p align="center">
