@@ -17,15 +17,15 @@ Mr vs ρ ,  1/Mr vs. ρ ,   Mr vs k   and  1/Mr vs. k
 </p>
 
 <p align="center">
-<img src="Images/2.png" width=600>
+<img src="Images/2.png" width="600">
 </p>
 
 <p align="center">
-<img src="Images/3.png" width=600>
+<img src="Images/3.png" width="600">
 </p>
 
 <p align="center">
-<img src="Images/4.png" width=600>
+<img src="Images/4.png" width="600">
 </p>
 
 The curves are meaningful as they follow the theory and equations.
@@ -43,12 +43,12 @@ In order to simulate the behavior of a subcritical system with a series of posit
 
 The Matlab code ```pksim_test.m``` was developed to simulate a steady, subcritical state with ρo = -10 dollars. Each time, sufficient positive reactivity was added at each step to reduce the total reactivity by a factor of two. By plotting P(t)/P_0 vs time, the sudden change in power were more understandable. The reactivity graphs show the effect of adding reactivity until the system reached near criticality. The result make sense as it is consistent with the theory. In case P_0 was chosen to be a larger number, the effect of the initial negative reactivity will be noticed (huge prompt drop).
 
-<p align="center"><img src="tex/bc7255a8d2a6e02e72d10e0ec8aa9ec1.svg?invert_in_darkmode&sanitize=true&sanitize=true" align=middle width=364.67223045pt height=303.08458455pt/></p>
+<p align="center"><img src="tex/bc7255a8d2a6e02e72d10e0ec8aa9ec1.svg?invert_in_darkmode&sanitize=true&sanitize=true" align=middle width="364.67223045pt" height="303.08458455pt"/></p>
 
 <p align="center">
-<img src="Images/5.png" width=600>
+<img src="Images/5.png" width="600">
 </p>
 
 <p align="center">
-<img src="Images/6.png" width=600>
+<img src="Images/6.png" width="600">
 </p>
